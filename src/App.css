@@ -23,7 +23,39 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+/*  */
+.img-wrapper img{
+  width: 100px;
+  margin-top: -10px;
+}
+.btn-wrapper button{
+  background-color: orange;
+  border: 0px;
+  padding:10px;
+  border-radius: 4px;
+  color: #fff;
+  box-sizing: #333 0px 1px 5px;
+}
+.cart-wrapper{
+  height: 100%;
+  width: 500px;
+  border:1px solid #ccc;
+  margin-left: 10%;
+}
+.item{
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.add-to-cart img{
+  width: 50px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+/*  */
 .App-link {
   color: #61dafb;
 }
